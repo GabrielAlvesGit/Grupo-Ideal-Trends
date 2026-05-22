@@ -5,6 +5,7 @@
 @import "./base/reset.css";
 @import "./base/grid.css";
 
+
 /*=============== Global ===============*/
 @import "./global/scrollup.css";
 @import "./global/header.css";
@@ -13,7 +14,3 @@
 /*=============== Pages  ===============*/
 @import "./page/home.css";
 @import "./page/sliders.css";
-
-/*=============== Components ===============*/
-@import "./components/button.css";
-@import "./components/card.css";

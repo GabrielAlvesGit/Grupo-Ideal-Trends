@@ -1,3 +1,5 @@
+/* ============= Sliders ============= */
+
 document.addEventListener('DOMContentLoaded', function () {
     new Splide('#main-slider', {
         type: 'fade',

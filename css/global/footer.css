@@ -22,7 +22,6 @@
     text-transform: uppercase;
 }
 
-
 .footer__list__item:hover .footer__list__item__link {
     color: var(--primary-color-white);
     transition: 0.35s all;

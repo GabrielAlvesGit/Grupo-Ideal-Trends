@@ -13,7 +13,6 @@
     --screen-xs: 350px;
 }
 
-
 @media (min-width: var(--screen-xs)) {
     .container {
         max-width: var(--screen-xs);
