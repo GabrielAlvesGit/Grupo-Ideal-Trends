@@ -1,0 +1,30 @@
+/* ============= footer ============= */
+
+.footer {
+    padding: 30px 0 60px;
+    background-color: var(--primary-color-gray);
+}
+
+.footer__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer__list__item {}
+
+.footer__list__item__link {
+    color: var(--secondary-color-gray);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    text-transform: uppercase;
+}
+
+
+.footer__list__item:hover .footer__list__item__link {
+    color: var(--primary-color-white);
+    opacity: 1;
+    transition: 0.35s all;
+}
