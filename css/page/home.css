@@ -1,0 +1,47 @@
+/* ============= Assessment ============= */
+
+.assessment {
+    padding: 8px 0 30px;
+}
+
+.assessment>.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.assessment__content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    gap: 20px;
+}
+
+.assessment__content__title {
+    font-size: 30px;
+    line-height: 38px;
+    color: var(--primary-color-gray);
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+.assessment__content__text {
+    color: var(--primary-color-gray);
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 0.7;
+}
+
+.assessment__content__list {
+    margin-bottom: 20px;
+}
+
+.assessment__content__list {}
+
+.assessment__content__list__item {
+    color: var(--primary-color-gray);
+    font-size: 16px;
+    line-height: 20px;
+    opacity: 0.7;
+    list-style: inside;
+}

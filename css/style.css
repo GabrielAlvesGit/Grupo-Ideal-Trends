@@ -11,7 +11,7 @@
 @import "./global/footer.css";
 
 /*=============== Pages  ===============*/
-
+@import "./page/home.css";
 
 /*=============== Components ===============*/
 @import "./components/button.css";
