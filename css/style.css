@@ -7,9 +7,9 @@
 @import "./base/scrollbar.css";
 
 /*=============== Global ===============*/
-@import "./global/scrollup.css";
 @import "./global/header.css";
 @import "./global/footer.css";
+@import "./global/scrollup.css";
 
 /*=============== Pages  ===============*/
 @import "./page/home.css";

@@ -3,8 +3,9 @@
     right: 20px;
     bottom: -100px;
     background-color: var(--primary-color-blue);
-    padding: 15px 17px;
+    padding: 18px 22px;
     border-radius: 61%;
+    cursor: pointer;
     transition: 0.35s all;
 
     &.active {
