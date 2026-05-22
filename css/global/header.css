@@ -196,7 +196,7 @@
     .header__bottom__nav__list__item__link {
         display: block;
         color: var(--primary-color-gray);
-        padding: 0 18px;
+        padding: 10px 0 10px 18px;
     }
 
     .sublist {

@@ -1,0 +1,13 @@
+/* ======= Scroll Styles ======= */
+::-webkit-scrollbar-track {
+    background-color: var(--primary-color-gray);
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color-blue);
+    border-radius: 5px;
+}
