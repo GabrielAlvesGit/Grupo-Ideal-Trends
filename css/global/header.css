@@ -96,7 +96,6 @@
     padding: 10px 1px;
 }
 
-
 .sublist__item:hover .sublist__item__link {
     background-color: var(--primary-color-white);
     color: var(--primary-color-gray);
@@ -109,7 +108,6 @@
     visibility: visible;
     transition: 0.45s all;
 }
-
 
 .sublist2 {
     opacity: 0;
@@ -140,7 +138,6 @@
     transition: 0.45s all;
 }
 
-
 .sublist2__item__link__link {
     display: block;
     color: var(--primary-color-white);
@@ -152,5 +149,4 @@
     background-color: var(--primary-color-white);
     color: var(--primary-color-gray);
     transition: 0.35s all;
-
 }

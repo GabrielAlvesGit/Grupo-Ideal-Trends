@@ -27,7 +27,7 @@
 
 .assessment__content__text {
     color: var(--primary-color-gray);
-    font-size: 16px;
+    font-size: 20px;
     line-height: 20px;
     opacity: 0.7;
 }
@@ -44,4 +44,61 @@
     line-height: 20px;
     opacity: 0.7;
     list-style: inside;
+}
+
+/* ============= Highlights ============= */
+
+.highlights {
+    padding: 30px 0 30px;
+}
+
+.highlights__title {
+    color: var(--primary-color-gray);
+    font-size: 25px;
+    line-height: 28px;
+    font-weight: 500;
+    opacity: 0.7;
+    margin-bottom: 45px;
+}
+
+.highlights__boxs {
+    display: flex;
+    gap: 18px;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: var(--primary-color-blue) transparent;
+    padding-bottom: 16px;
+}
+
+.highlights__boxs::-webkit-scrollbar {
+    height: 6px;
+}
+
+.highlights__boxs__box {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    max-width: 343px;
+    gap: 18px;
+}
+
+.highlights__boxs__box__img {
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.highlights__boxs__box__img__link {
+    color: var(--primary-color-gray);
+    font-size: 20px;
+    line-height: 20px;
+    opacity: 0.7;
+    list-style: inside;
+    transition: 0.45s all;
+}
+
+.highlights__boxs__box__img__link:hover {
+    opacity: 0.5;
+    transition: 0.35s all;
 }
