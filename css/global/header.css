@@ -103,6 +103,13 @@
     transition: 0.35s all;
 }
 
+.sublist__item__link:hover {
+    opacity: 1;
+    color: var(--primary-color-blue);
+    visibility: visible;
+    transition: 0.45s all;
+}
+
 
 .sublist2 {
     opacity: 0;

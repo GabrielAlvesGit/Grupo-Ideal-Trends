@@ -25,6 +25,5 @@
 
 .footer__list__item:hover .footer__list__item__link {
     color: var(--primary-color-white);
-    opacity: 1;
     transition: 0.35s all;
 }

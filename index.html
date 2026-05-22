@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <!--JQuery Slick -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
 
     <title>Grupo Ideal Trends</title>
 </head>
@@ -67,21 +69,21 @@
                                 <li class="sublist__item">
                                     <a class="sublist__item__link" href="#">SUBMENU 1</a>
 
-                                    <ul class="sublist">
-                                        <li class="sublist__item__link">
-                                            <a class="sublist__item__link__link" href="#">SUBMENU 2</a>
+                                    <ul class="sublist2">
+                                        <li class="sublist2__item__link">
+                                            <a class="sublist2__item__link__link" href="#">SUBMENU 2</a>
                                         </li>
 
-                                        <li class="sublist__item__link">
-                                            <a class="sublist__item__link__link" href="#">SUBMENU 2</a>
+                                        <li class="sublist2__item__link">
+                                            <a class="sublist2__item__link__link" href="#">SUBMENU 2</a>
                                         </li>
 
-                                        <li class="sublist__item__link">
-                                            <a class="sublist__item__link__link" href="#">SUBMENU 2</a>
+                                        <li class="sublist2__item__link">
+                                            <a class="sublist2__item__link__link" href="#">SUBMENU 2</a>
                                         </li>
 
-                                        <li class="sublist__item__link">
-                                            <a class="sublist__item__link__link" href="#">SUBMENU 2</a>
+                                        <li class="sublist2__item__link">
+                                            <a class="sublist2__item__link__link" href="#">SUBMENU 2</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -105,13 +107,23 @@
     <!-- Main -->
     <main class="main">
 
-        <!-- Banner -->
-        <section class="banner">
+        <!-- Sliders -->
+        <section class="slider__section">
+            <div class="splide" id="main-slider">
+                <div class="splide__track">
+                    <ul class="splide__list">
 
-            <div class="container">
+                        <li class="splide__slide">
+                            <img src="./assets/img/banner-2.png" alt="Banner 1">
 
+                        </li>
+
+                        <li class="splide__slide">
+                            <img src="./assets/img/banner-nossa-cultura-V4.png" alt="Banner 2">
+                        </li>
+                    </ul>
+                </div>
             </div>
-
         </section>
 
         <!-- Assessment -->
@@ -154,8 +166,23 @@
             <div class="container">
                 <h3 class="highlights__title">BOXES DE DESTAQUE</h3>
 
+                <div class="highlights__boxs">
+                    <div class="highlights__boxs__box">
+                        <img class="highlights__boxs__box__img" src="assets/img/banner-nossa-cultura-V4.png"
+                            alt="Box de Destaque 1">
 
+                        <a class="highlights__boxs__box__img__link" href="#">Um texto descrito com link apenas.</a>
+                    </div>
 
+                    <div class="highlights__boxs">
+                        <div class="highlights__boxs__box">
+                            <img class="highlights__boxs__box__img" src="assets/img/banner-nossa-cultura-V4.png"
+                                alt="Box de Destaque 1">
+
+                            <a class="highlights__boxs__box__img__link" href="#">Um texto descrito com link apenas.</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -184,6 +211,8 @@
             </ul>
         </div>
     </footer>
+
+    <script src="/js/sliders.js"></script>
 </body>
 
 </html>

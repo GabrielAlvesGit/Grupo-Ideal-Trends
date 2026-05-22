@@ -12,6 +12,7 @@
 
 /*=============== Pages  ===============*/
 @import "./page/home.css";
+@import "./page/sliders.css";
 
 /*=============== Components ===============*/
 @import "./components/button.css";
